@@ -1,5 +1,7 @@
 # A beginner-friendly deep learning project to detect plant disease
 
+![Model Output](https://github.com/debabratapruseth/plant-disease-ai/blob/main/PlantVillage%20Illustration.png)
+
 ## Project Overview
 
 Plant disease detection using machine learning can help farmers diagnose problems earlier, protect yields, and improve food safety for communities. This project uses the PlantVillage dataset and fine-tunes ImageNet-pretrained EfficientNet backbones (B0 and B4) to build a multi-class leaf disease classifier.

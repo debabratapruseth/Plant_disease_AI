@@ -1,12 +1,12 @@
 # A beginner-friendly deep learning project to detect plant disease
 
-![Model Output](https://github.com/debabratapruseth/plant-disease-ai/blob/main/PlantVillage%20Illustration.png)
+![Model Illustration](https://github.com/debabratapruseth/plant-disease-ai/blob/main/PlantVillage%20Illustration.png)
 
 ## Project Overview
 
 Plant disease detection using machine learning can help farmers diagnose problems earlier, protect yields, and improve food safety for communities. This project uses the PlantVillage dataset and fine-tunes ImageNet-pretrained EfficientNet backbones (B0 and B4) to build a multi-class leaf disease classifier.
 
-We start with EfficientNet-B0 as a baseline and then improve performance by switching to EfficientNet-B4 and using techniques such as focal loss, two-stage fine-tuning, and mixed precision. The code includes evaluation and explainability (Grad-CAM) so you can inspect what the model is “looking at.”
+We start with EfficientNet-B0 as a baseline and then improve performance by switching to EfficientNet-B4 and using techniques such as focal loss, two-stage fine-tuning, and mixed precision. 
 
 Why this is useful: early detection speeds up treatment decisions, reduces crop loss, and supports sustainable farming.
 
@@ -32,14 +32,16 @@ Dataset → PlantVillage (via tensorflow_datasets)
 
 ## Evaluation (high-level)
 
-	•	The B4 experiment (larger backbone + focal loss + two-stage fine-tuning) produced clear improvements over the baseline B0 experiment.
+The B4 experiment (larger backbone + focal loss + two-stage fine-tuning) produced clear improvements over the baseline B0 experiment.
+
+ ![Model Illustration](https://github.com/debabratapruseth/Plant_disease_AI/blob/main/B0%20vs%20B4.png)
+ 
 
  ### Improvement ideas (things you can try further to increase model efficiency)
  
-	•	Train specialist models per plant species and ensemble their predictions.
+	•	Train specialist models 'per' plant species and ensemble their predictions.
 	•	Try stronger augmentations (random crop, color jitter, cutout) and longer fine-tuning schedules.
-	•	Clean and curate the dataset to remove images with spurious background cues.
-	•	Experiment with other backbones (EfficientNetV2, ViT) or alternative imbalance strategies (class-balanced loss, oversampling).
+	•	Experiment with other backbones (ViT) or alternative imbalance strategies (class-balanced loss, oversampling).
 	•	Use Grad-CAM across true positives, false positives and false negatives to diagnose failure modes.
 
 ## Code Structure

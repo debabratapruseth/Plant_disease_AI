@@ -62,8 +62,8 @@ The B4 experiment (larger backbone + focal loss + two-stage fine-tuning) produce
 
 
 ## How to use
-	1.	Open the notebook or Colab and run the cells in order (setup → data → model → train → evaluate).
-	2.	If using Colab, enable GPU and install dependencies from requirements.txt.
+	1.	Open the notebook in Colab and run the cells in order (setup → data → model → train → evaluate).
+	2.	If using Colab, enable GPU.
 
 
 ## License

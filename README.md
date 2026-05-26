@@ -66,6 +66,22 @@ The B4 experiment (larger backbone + focal loss + two-stage fine-tuning) produce
 	2.	If using Colab, enable GPU.
 
 
+## Related Blog and Research PDF
+
+### This repository supports the blog post:
+
+Detecting Plant Diseases with AI – A Beginner-Friendly Deep Learning Project
+
+https://debabratapruseth.com/detecting-plant-diseases-with-ai-a-beginner-friendly-deep-learning-project/
+
+### Research-style title:
+
+Research PDF: https://debabratapruseth.com/wp-content/uploads/Deep-Learning-for-Plant-Disease-Detection-A-Practical-Framework-for-Image-Based-Crop-Diagnosis.pdf
+
+### If you reference this project, please cite:
+
+Pruseth, D. (2025). Deep Learning for Plant Disease Detection: A Practical Framework for Image-Based Crop Diagnosis.
+
 ## License
 
 This project is licensed under the MIT License — you’re free to use, modify, and distribute it.
